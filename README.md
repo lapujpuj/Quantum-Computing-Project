@@ -1,82 +1,82 @@
-# Projet Bibliographique sur l'Informatique Quantique
+# Bibliographic Project on Quantum Computing
 
-Bienvenue dans mon projet bibliographique sur l'informatique quantique. Ce projet explore les principes fondamentaux de l'informatique quantique, y compris la notion de qubit, les différentes technologies pour produire et manipuler des qubits, ainsi que l'optimisation quantique et la résolution de problèmes d'optimisation classique à l'aide d'ordinateurs quantiques.
+Welcome to my bibliographic project on quantum computing. This project explores the fundamental principles of quantum computing, including the notion of qubits, various technologies for producing and manipulating qubits, as well as quantum optimization and solving classical optimization problems using quantum computers.
 
-## Table des matières
+## Table of Contents
 
-- [Aperçu du projet](#aperçu-du-projet)
-- [Organisation du projet](#organisation-du-projet)
-- [Prérequis](#prérequis)
-- [Instructions d'installation](#instructions-dinstallation)
-- [Utilisation](#utilisation)
+- [Project Overview](#project-overview)
+- [Project Organization](#project-organization)
+- [Prerequisites](#prerequisites)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
 - [Conclusion](#conclusion)
 - [Contact](#contact)
 
-## Aperçu du projet
+## Project Overview
 
-Le projet bibliographique couvre les sujets suivants, conformément au plan du jalon 2 :
+The bibliographic project covers the following topics, as outlined in the milestone 2 plan:
 
-- **Qu’est-ce qu’un qubit ?** :
-  - Définition
-  - Mesure d’un qubit
-  - Superposition et intrication de qubits
+- **What is a qubit?**:
+  - Definition
+  - Measuring a qubit
+  - Superposition and entanglement of qubits
 
-- **Comment produire un qubit et agir sur son état ?** :
-  - Les qubits à ions piégés
-  - Les qubits supraconducteurs
-  - Les qubits à photons
+- **How to produce a qubit and manipulate its state?**:
+  - Trapped-ion qubits
+  - Superconducting qubits
+  - Photonic qubits
 
-- **Quelle technologie choisir ?**
+- **Which technology to choose?**
 
-- **Algorithme et optimisation quantique** :
-  - Les portes quantiques :
-    - Porte de Pauli
-    - Porte de Hadamard
-    - Porte de phase
-    - Porte de CNOT
-  - Optimisation quantique :
-    - Théorème adiabatique
-    - Hamiltonien d’Ising
+- **Quantum algorithms and optimization**:
+  - Quantum gates:
+    - Pauli gate
+    - Hadamard gate
+    - Phase gate
+    - CNOT gate
+  - Quantum optimization:
+    - Adiabatic theorem
+    - Ising Hamiltonian
 
-- **Résoudre un problème d’optimisation : Le Max Cut Edge** :
-  - Encodage quantique du problème : Quel Hamiltonien ?
-  - Implémentation
+- **Solving an optimization problem: The Max Cut Edge**:
+  - Quantum encoding of the problem: Which Hamiltonian?
+  - Implementation
 
 - **Conclusion**
 
-Le projet se conclut par une synthèse des résultats et des perspectives de recherche future dans le domaine de l'informatique quantique.
+The project concludes with a synthesis of the results and perspectives for future research in quantum computing.
 
-## Prérequis
+## Prerequisites
 
-Pour travailler avec ce projet, vous devez disposer des éléments suivants :
+To work with this project, you will need the following:
 
-- Un compte [Leap de D-Wave](https://www.dwavesys.com/take-leap) pour l'accès aux ordinateurs quantiques D-Wave.
-- [Ocean](https://docs.ocean.dwavesys.com/en/stable/) : la bibliothèque Python de D-Wave pour la résolution de problèmes d'optimisation quantique.
+- A [D-Wave Leap account](https://www.dwavesys.com/take-leap) for access to D-Wave quantum computers.
+- [Ocean](https://docs.ocean.dwavesys.com/en/stable/): D-Wave's Python library for solving quantum optimization problems.
 
-## Instructions d'installation
+## Installation Instructions
 
-1. Clonez ce dépôt GitHub :
+1. Clone this GitHub repository:
 
     ```bash
-    git clone [votre-lien-github]
+    git clone [your-github-link]
     ```
 
-2. Installez les dépendances nécessaires en exécutant :
+2. Install the necessary dependencies by running:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-## Utilisation
+## Usage
 
-Pour exécuter le projet, suivez les instructions dans les fichiers Jupyter Notebook inclus dans le répertoire `partie_pratique/`. Vous y trouverez les étapes à suivre pour résoudre le problème du Max Cut Edge avec un ordinateur quantique.
+To run the project, follow the instructions in the Jupyter Notebook files located in the `partie_pratique/` directory. These files detail the steps required to solve the Max Cut Edge problem using a quantum computer.
 
 ## Conclusion
 
-Ce projet bibliographique fournit une introduction complète à l'informatique quantique et montre comment utiliser un ordinateur quantique pour résoudre un problème d'optimisation classique. Les résultats obtenus soulignent le potentiel de l'informatique quantique pour résoudre des problèmes complexes plus efficacement que les algorithmes classiques.
+This bibliographic project provides a comprehensive introduction to quantum computing and demonstrates how to use a quantum computer to solve a classical optimization problem. The results highlight the potential of quantum computing to solve complex problems more efficiently than classical algorithms.
 
 ## Contact
 
-Si vous avez des questions ou des suggestions, n'hésitez pas à me contacter à l'adresse [martin.pujol@etu.sorbonne-universite.fr](mailto:martin.pujol@etu.sorbonne-universite.fr).
+If you have any questions or suggestions, feel free to contact me at [martin.pujol@etu.sorbonne-universite.fr](mailto:martin.pujol@etu.sorbonne-universite.fr).
 
-Merci pour votre intérêt pour ce projet !
+Thank you for your interest in this project!
