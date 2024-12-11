@@ -58,7 +58,7 @@ To work with this project, you will need the following:
 1. Clone this GitHub repository:
 
     ```bash
-    git clone [your-github-link]
+    git clone https://github.com/lapujpuj/Quantum-Computing-Project/tree/main
     ```
 
 2. Install the necessary dependencies by running:
